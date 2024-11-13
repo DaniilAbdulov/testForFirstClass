@@ -1,0 +1,8 @@
+Установить зависимости
+Запустить проект командой npm run start
+Настроить подключение к базе в /config/index.js
+
+Мои запросы в postman:
+http://localhost:5000/api/lessons?date=2019-01-01,2019-09-01&status=1&teacherIds=1,2,3&studentsCount=1, 3&lessonsPerPage=5&page=1
+http://localhost:5000/api/lessons?date=2019-05-15&status=1&teacherIds=1,2,3&studentsCount=1&lessonsPerPage=5&page=1
+

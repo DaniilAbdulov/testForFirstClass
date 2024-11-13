@@ -1,0 +1,1 @@
+export const isDate = (date) => !isNaN(new Date(date).getTime());
