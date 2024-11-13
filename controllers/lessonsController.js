@@ -110,7 +110,6 @@ export class LessonsController {
           } else {
             this.setDateFilter({singleParametr});
           }
-
         }
 
         if (min && max) {
@@ -294,7 +293,6 @@ export class LessonsController {
         } else if (min && max) {
           lessonIdsQuery.having(pg.raw('COUNT(students.id) BETWEEN ? AND ?', [min, max]));
         }
-
       }
 
       return lessonIdsQuery;
